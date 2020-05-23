@@ -1,0 +1,53 @@
+.gallery-container {
+  background-color: fade(--color2, 10%);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+  width: 100%;
+}
+  
+.gallery-tile-container {
+  background-color: white;
+  max-width: 40rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin: 1rem;
+}
+  
+.gallery-tile-logo-container {
+  background-color: --color2;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  
+}
+
+.gallery-tile-logo {
+  width: 128px;
+  height: 128px;  
+}
+
+.image-gallery {
+  margin-top: 40px;
+
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  
+}
+
+.gallery-tile-text {
+  text-align: center;
+}
+
+.selected {
+  border: red;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
